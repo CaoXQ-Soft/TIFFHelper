@@ -24,14 +24,20 @@
 
 ### 5.1 TIFF查看与编辑
         提供一些常用的查看与编辑功能。  
-        
+![TIFF查看](https://github.com/user-attachments/assets/82456bf6-1a62-4e66-87d0-eca1ed52a68c)
+
+![TIFF编辑](https://github.com/user-attachments/assets/c3479484-f1d5-4255-9101-5886c1f6ca02)
+
         注意事项：   
         ① 支持打开的最大单个TIFF文件大小为 64GB ；   
         ② 支持打开的TIFF文件最大单帧尺寸为 65535 × 65535 。  
         
 ### 5.2 TIFF合并
         将jpg、bmp、png、tiff等图像合并成多页TIFF文件。  
-        
+
+![TIFF合并](https://github.com/user-attachments/assets/9bef1719-651f-4d0f-bae7-91be842626fd)
+
+ 
         参数说明：  
         （1）合并方式：  
                 ① 将每个子文件夹合并成一个TIFF文件；
@@ -48,6 +54,9 @@
 
 ### 5.3 TIFF拆分
         将多页TIFF文件拆分成 jpg、bmp、png、tiff等格式。  
+
+![TIFF拆分](https://github.com/user-attachments/assets/780d876b-9207-40ca-8a69-6bb461693691)
+
 
 	参数说明：  
 	        1、拆分方式： 
@@ -83,6 +92,8 @@
 ### 5.4 TIFF调整
         可以对多页TIFF文件进行逐帧缩放、DPI更改、像素格式更改等。
 
+![TIFF调整](https://github.com/user-attachments/assets/a6e1c012-35cc-4298-8bf1-827e7c3a6ad8)
+
 	参数说明：
 	        1、启用缩放：
 	                对TIFF文件启用缩放操作； 
@@ -100,21 +111,28 @@
 	                可以选择预定义或输入自定义的DPI数值。 
 	        7、像素格式 
 	                对TIFF文件启用像素格式更改操作；
-	        8、像素格式
-			https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.media.pixelformats?view=windowsdesktop-6.0&devlangs=csharp&f1url=%3FappId%3DDev16IDEF1%26l%3DZH-CN%26k%3Dk(System.Windows.Media.PixelFormats)%3Bk(DevLang-csharp)%26rd%3Dtrue
-	        9、调色板格式（仅当像素格式为Indexed索引系列时可选） 
-			https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.media.imaging.bitmappalettes?view=windowsdesktop-8.0
+	        8、[像素格式](https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.media.pixelformats?view=windowsdesktop-6.0&devlangs=csharp&f1url=%3FappId%3DDev16IDEF1%26l%3DZH-CN%26k%3Dk(System.Windows.Media.PixelFormats)%3Bk(DevLang-csharp)%26rd%3Dtrue)
+			
+	        9、[调色板格式](https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.media.imaging.bitmappalettes?view=windowsdesktop-8.0)（仅当像素格式为Indexed索引系列时可选） 
+			
 	        10、保存方式 
 	                ① 保存并替换原文件
                 ② 另存为新文件（保留文件夹结构）![image](https://github.com/user-attachments/assets/bd466f50-3aa5-4f15-ba3e-779e8594cd63)
 
 ### 5.5 TIFF统计
         可以对多页TIFF文件的帧数进行统计，并导出为Excel表。
+	
+![TIFF统计](https://github.com/user-attachments/assets/2c0f6e5b-2a27-43ae-a71c-5270fe895609)
+ 
         注意：当TIFF统计的份数超过Excel行数限制（1048576）时，导出Excel时会自动对Excel文件进行分割，例如：当TIFF总份数为200万时，此时导出的Excel会自动分割为两份Excel文件。
 
 ### 5.6 TIFF压缩
         可以对多页TIFF文件进行压缩，以减少文件体积，并支持将压缩结果导出为Excel表。
             注意：当TIFF统计的份数超过Excel行数限制（1048576）时，导出Excel时会自动对Excel文件进行分割，例如：当TIFF总份数为200万时，此时导出的Excel会自动分割为两份Excel文件。
+
+![image](https://github.com/user-attachments/assets/21dcf83b-94a5-4494-9252-9319ab849ef5)
+
+![image](https://github.com/user-attachments/assets/187c252c-39bc-4006-819e-d79213027743)
 
 	参数说明：
 	        1、压缩方案 
@@ -134,6 +152,10 @@
         可以对多页TIFF文件的分辨率进行逐帧检测，并导出为Excel表。
         注意：当TIFF检测的帧数超过Excel行数限制（1048576）时，导出Excel时会自动对Excel文件进行分割，例如：当TIFF总帧数为200万时，此时导出的Excel会自动分割为两份Excel文件。
 
+![image](https://github.com/user-attachments/assets/3b221062-dd2d-40e6-9f1e-a7869af5f5ee)
+
+![image](https://github.com/user-attachments/assets/901d224b-97ed-4be0-995c-346513e90b6f)
+
         参数说明： 
                 1、检测DPI： 
                         可以选择或输入用作参照标准的DPI。 
@@ -144,6 +166,9 @@
         可以对多页TIFF文件的颜色类型进行逐帧检测，并导出为Excel表。
         注意：当TIFF检测的帧数超过Excel行数限制（1048576）时，导出Excel时会自动对Excel文件进行分割，例如：当TIFF总帧数为200万时，此时导出的Excel会自动分割为两份Excel文件。
 
+![image](https://github.com/user-attachments/assets/9325e7f3-538a-4d23-b523-607b4ddb0fe8)
+
+![image](https://github.com/user-attachments/assets/c22dc912-69aa-493d-8cec-a5a674d24c30)
 
         参数说明：
                 1、检测模式： 
@@ -158,6 +183,6 @@
 
 ## 六、关于
         可以在这里了解到软件的一些附加信息，以及如何寻求帮助。
-
-
+	
+![image](https://github.com/user-attachments/assets/67ba0358-1d13-4957-96ad-94a17776afd2)
 
